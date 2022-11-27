@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+.width-100{
+    width: 95%;
+}
+
+
+
+   .slide-content{
+    margin: 0 40px;
+   }
+
+   .img-wrapper{
+    max-width: 100%;
+    height: 17em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+@media screen and (min-width:200px) {
+    .carousel-inner{
+      display: flex;
+    }
+
+    .carousel-item{
+      display:block ;
+      margin-right: 0;
+      flex: 0 0 calc(100%/3);
+    }
+    .img-wrapper{
+        height: 20vw;
+    } 
+ }
+
+ .carousel-inner{
+    padding: 1em;
+ }
+
+.card {
+    margin: 0 .5em;
+}
+   
+   .form {
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    box-sizing: border-box;
+    
+    }
+     .card-us{
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    border: 1px blur(12px);
+    border-radius: .50rem;
+    width: 20rem;
+    height: 22rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    font-size: 20px;
+    
+   }
+
+   .card-us-body{
+    font-size: 20px;
+   }
+
+   .card-us-header{
+    font-size: 25px;
+    margin-bottom: .5rem;
+   }
+    footer {
+        background-image: url('footer.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+      }
+
+    footer ul li a{
+        list-style-type: none;
+        text-decoration: none;
+        text-align: left!important;
+        color:rgb(16, 2, 121);
+        opacity: 0.9;
+    }
+    
+    footer .container {
+        text-align: left!important;
+    }
+    
+    footer .footer-section ul {
+        list-style-type: none;
+        text-decoration: none;
+        display: inline;
+        opacity: 0.9;
+    }
+    footer .copyright-right ul {
+        list-style-type: none;
+        text-decoration: none;
+        display: inline-flex;
+        letter-spacing: 10px;
+    }
+    
+    .copyright-left {
+        text-align: left;
+    }
+    
+    .copyright-right {
+        text-align: right;
+    }
+    
+  
+ 
+
+  
+    
+
+   
+
+    
+
+    
